@@ -1,0 +1,6 @@
+.nide
+node_modules
+.npmignore
+.DS_Store
+.DS_store
+/public/assets/*

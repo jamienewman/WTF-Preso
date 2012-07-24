@@ -1,0 +1,32 @@
+{
+  "name": "WTF-Preso",
+  "version": "0.0.1-14",
+  "private": true,
+  "dependencies": {
+    "express": "2.5.8",
+    "jade": ">= 0.0.1",
+    "stylus": "0.27.0",
+    "nib": ">= 0.4.1",
+    "socket.io": "~0.9.6",
+    "qrcode": "0.1.1"
+  },
+  "subdomain": "wtf-preso",
+  "scripts": {
+    "start": "app.js"
+  },
+  "engines": {
+    "node": "0.6.x"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/ShaunBaker/preso"
+    }
+  ],
+  "engine": "node",
+  "bugs": {
+    "name": "https://github.com/ShaunBaker/preso/issues"
+  },
+  "author": "Shaun Baker @shaundesigns",
+  "description": "A WTFQR Presentation"
+}
